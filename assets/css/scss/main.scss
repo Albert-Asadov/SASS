@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px ;
+    background-color: #212529;
+   .container{
+    .row{
+        .title{
+            color: white;
+        }
+        nav{
+            ul{
+                li{
+                    list-style-type: none;
+                    margin-left: 10px;
+                    a{
+                        text-decoration: none;
+                        color:gray ;
+                    }
+                }
+            }
+        }
+        .menu{
+            display: flex;         
+            align-items: center;
+            text-align: center;
+
+            i{
+                width: 40px;
+                height: 40px;
+                color: gray;
+                font-size: 20px;
+                border: 2px solid gray;
+                padding-top: 9px;
+                
+            }
+        }
+    }
+   }
+}
+
+main{
+    .introduction{
+        background-color: #212529 ;
+        padding: 100px;
+        .container{
+            .row{
+                .text-title{
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+                    .text{
+                        width: 500px;
+                        h2{
+                            font-size: 42px;
+                            font-weight: 600;
+                        }
+                      p{
+                        font-size: 20px;
+                        color: gray;
+                      }
+                    }
+                }
+                .button{
+                    .blue{
+                        background-color: #0d6efd;
+                        color: white;
+                        width: 130px;
+                        height: 45px;
+                        border: none;
+                        border-radius: 5px;
+                        transition: 0.3s;
+                        &:hover{
+                            background-color: blue;
+                            color: white;
+                        }
+                    }
+                    .gray{
+                        background-color: #212529;
+                        color: white;
+                        width: 130px;
+                        height: 45px;
+                        border: 1px solid white;
+                        border-radius: 5px;
+                        transition: 0.3s;
+                        &:hover{
+                            background-color: white;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+    .cards{
+        border-bottom: 1px solid wheat;
+        padding: 100px;
+        .container{
+            .row{
+                .card-first{
+                    .icon{
+                        background-color: blue;
+                        width: 64px;
+                        height: 64px;
+                        border-radius: 5px;
+                        i{
+                            color: white;
+                            font-size: 30px;
+                            padding: 16px 0 0 16px;
+                        }
+                    }
+                }
+
+                .card-second{
+                    .icon{
+                        background-color: blue;
+                        width: 64px;
+                        height: 64px;
+                        border-radius: 5px;
+                        i{
+                            color: white;
+                            font-size: 30px;
+                            padding: 16px 0 0 16px;
+                        }
+                    }
+                }
+
+                .card-third{
+                    .icon{
+                        background-color: blue;
+                        width: 64px;
+                        height: 64px;
+                        border-radius: 5px;
+                        i{
+                            color: white;
+                            font-size: 30px;
+                            padding: 16px 0 0 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .payment{
+        padding: 50px;
+        border-bottom: 1px solid wheat;
+        .container{
+            .row{
+                .title-text{
+                    text-align: center;
+                }
+                .card-first{
+                    text-align: start;
+                    border: 1px solid gray;
+                    padding: 30px;
+                    ul{
+                        .gray{
+                            color: gray;
+                        }
+                        li{
+                            list-style-type: none;
+                            i{
+                                margin-right: 10px;
+
+                                .blue{
+                                    color: blue;
+                                }
+                            }
+                        }
+                    }
+                    button{
+                        border-color: blue;
+                        text-align: center;
+                        width: 300px;
+                        height: 40px;
+                        color: blue;
+                        border-radius: 5px;
+
+                    }
+                }
+
+                .card-second{
+                    text-align: start;
+                    border: 1px solid gray;
+                    padding: 30px;
+                    ul{
+                        .gray{
+                            color: gray;
+                        }
+                        li{
+                            list-style-type: none;
+                            i{
+                                margin-right: 10px;
+
+                                .blue{
+                                    color: blue;
+                                }
+                            }
+                        }
+                    }
+                    button{
+                        border-color: blue;
+                        text-align: center;
+                        width: 300px;
+                        height: 40px;
+                        background-color: blue;
+                        color: white;
+                        border-radius: 5px;
+                    }
+                }
+
+                .card-third{
+                    text-align: start;
+                    border: 1px solid gray;
+                    padding: 30px;
+                    ul{
+                        .gray{
+                            color: gray;
+                        }
+                        li{
+                            list-style-type: none;
+                            i{
+                                margin-right: 10px;
+
+                                .blue{
+                                    color: blue;
+                                }
+                            }
+                        }
+                    }
+                    button{
+                        border-color: blue;
+                        text-align: center;
+                        width: 300px;
+                        height: 40px;
+                        color: blue;
+                        border-radius: 5px;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .dialog{
+        padding: 50px;
+        border-bottom: 1px solid wheat;
+        .container{
+            .row{
+                .card-first{
+                    height: 100px;
+                    border: 1px solid gray;
+                    i{
+                        font-size: 40px;
+                        color: blue;
+                    }
+                }
+                .card-second{
+                    border: 1px solid gray;
+                    height: 100px;
+
+                    i{
+                        font-size: 40px;
+                        color: blue;
+                    }
+                }
+            }
+        }
+    }
+
+    .submit{
+        padding: 50px;
+        .container{
+            .row{
+                .title-text{
+                    i{
+                        color: blue;
+                        font-size: 50px;
+                    }
+                }
+                form{
+                    input{
+                        width: 460px;
+                        height: 50px;
+                        &::placeholder{
+                            padding: 10px;
+                        }
+                    }
+                    textarea{
+                        &::placeholder{
+                            padding: 10px;
+                        }
+                    }
+                    button{
+                        width: 460px;
+                        height: 50px;
+                        border-radius: 5px;
+                        background-color: rgb(76, 108, 250);
+                        color: white;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+ 
+    footer{
+       background-color: #212529;
+       height: 100px;
+       .container{
+        .row{
+            .text{
+                color: white;
+            }
+        }
+       }
+    }

@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  background-color: #212529;
+}
+header .container .row .title {
+  color: white;
+}
+header .container .row nav ul li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+header .container .row nav ul li a {
+  text-decoration: none;
+  color: gray;
+}
+header .container .row .menu {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+header .container .row .menu i {
+  width: 40px;
+  height: 40px;
+  color: gray;
+  font-size: 20px;
+  border: 2px solid gray;
+  padding-top: 9px;
+}
+
+main .introduction {
+  background-color: #212529;
+  padding: 100px;
+}
+main .introduction .container .row .text-title {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+main .introduction .container .row .text-title .text {
+  width: 500px;
+}
+main .introduction .container .row .text-title .text h2 {
+  font-size: 42px;
+  font-weight: 600;
+}
+main .introduction .container .row .text-title .text p {
+  font-size: 20px;
+  color: gray;
+}
+main .introduction .container .row .button .blue {
+  background-color: #0d6efd;
+  color: white;
+  width: 130px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+main .introduction .container .row .button .blue:hover {
+  background-color: blue;
+  color: white;
+}
+main .introduction .container .row .button .gray {
+  background-color: #212529;
+  color: white;
+  width: 130px;
+  height: 45px;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+main .introduction .container .row .button .gray:hover {
+  background-color: white;
+  color: black;
+}
+
+.cards {
+  border-bottom: 1px solid wheat;
+  padding: 100px;
+}
+.cards .container .row .card-first .icon {
+  background-color: blue;
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+}
+.cards .container .row .card-first .icon i {
+  color: white;
+  font-size: 30px;
+  padding: 16px 0 0 16px;
+}
+.cards .container .row .card-second .icon {
+  background-color: blue;
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+}
+.cards .container .row .card-second .icon i {
+  color: white;
+  font-size: 30px;
+  padding: 16px 0 0 16px;
+}
+.cards .container .row .card-third .icon {
+  background-color: blue;
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+}
+.cards .container .row .card-third .icon i {
+  color: white;
+  font-size: 30px;
+  padding: 16px 0 0 16px;
+}
+
+.payment {
+  padding: 50px;
+  border-bottom: 1px solid wheat;
+}
+.payment .container .row .title-text {
+  text-align: center;
+}
+.payment .container .row .card-first {
+  text-align: start;
+  border: 1px solid gray;
+  padding: 30px;
+}
+.payment .container .row .card-first ul .gray {
+  color: gray;
+}
+.payment .container .row .card-first ul li {
+  list-style-type: none;
+}
+.payment .container .row .card-first ul li i {
+  margin-right: 10px;
+}
+.payment .container .row .card-first ul li i .blue {
+  color: blue;
+}
+.payment .container .row .card-first button {
+  border-color: blue;
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  color: blue;
+  border-radius: 5px;
+}
+.payment .container .row .card-second {
+  text-align: start;
+  border: 1px solid gray;
+  padding: 30px;
+}
+.payment .container .row .card-second ul .gray {
+  color: gray;
+}
+.payment .container .row .card-second ul li {
+  list-style-type: none;
+}
+.payment .container .row .card-second ul li i {
+  margin-right: 10px;
+}
+.payment .container .row .card-second ul li i .blue {
+  color: blue;
+}
+.payment .container .row .card-second button {
+  border-color: blue;
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+.payment .container .row .card-third {
+  text-align: start;
+  border: 1px solid gray;
+  padding: 30px;
+}
+.payment .container .row .card-third ul .gray {
+  color: gray;
+}
+.payment .container .row .card-third ul li {
+  list-style-type: none;
+}
+.payment .container .row .card-third ul li i {
+  margin-right: 10px;
+}
+.payment .container .row .card-third ul li i .blue {
+  color: blue;
+}
+.payment .container .row .card-third button {
+  border-color: blue;
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  color: blue;
+  border-radius: 5px;
+}
+
+.dialog {
+  padding: 50px;
+  border-bottom: 1px solid wheat;
+}
+.dialog .container .row .card-first {
+  height: 100px;
+  border: 1px solid gray;
+}
+.dialog .container .row .card-first i {
+  font-size: 40px;
+  color: blue;
+}
+.dialog .container .row .card-second {
+  border: 1px solid gray;
+  height: 100px;
+}
+.dialog .container .row .card-second i {
+  font-size: 40px;
+  color: blue;
+}
+
+.submit {
+  padding: 50px;
+}
+.submit .container .row .title-text i {
+  color: blue;
+  font-size: 50px;
+}
+.submit .container .row form input {
+  width: 460px;
+  height: 50px;
+}
+.submit .container .row form input::-moz-placeholder {
+  padding: 10px;
+}
+.submit .container .row form input:-ms-input-placeholder {
+  padding: 10px;
+}
+.submit .container .row form input::placeholder {
+  padding: 10px;
+}
+.submit .container .row form textarea::-moz-placeholder {
+  padding: 10px;
+}
+.submit .container .row form textarea:-ms-input-placeholder {
+  padding: 10px;
+}
+.submit .container .row form textarea::placeholder {
+  padding: 10px;
+}
+.submit .container .row form button {
+  width: 460px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(76, 108, 250);
+  color: white;
+  border: none;
+}
+
+footer {
+  background-color: #212529;
+  height: 100px;
+}
+footer .container .row .text {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
